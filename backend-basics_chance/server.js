@@ -1,4 +1,3 @@
-// server.js
 import { createServer } from "http";
 import Chance from "chance";
 
