@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+}
+
+h1 {
+  text-align: center;
+  color: #ee4c0b;
+}
+
+main {
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav {
+  padding: 14px 20px;
+  background-color: #dbdbe4;
+  position: sticky;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu {
+  font-size: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.menu > li {
+  color: #334;
+}
+
+.menu > li:hover {
+  text-decoration: underline #ee4c0b 3px;
+}

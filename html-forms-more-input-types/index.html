@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>HTML Zoo Form</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section aria-label="contact">
+      <h2 id="form-heading">Zoo Visitor Sign Up</h2>
+      <p id="form-description">
+        Please provide all necessary information on your stay with us.
+      </p>
+
+      <form aria-labelledby="form-heading" aria-describedby="form-description">
+        <fieldset>
+          <legend>Enter your information</legend>
+          <label for="email">E-Mail Address</label>
+          <input id="email" type="email" name="email" />
+
+          <label for="arrival">Arrival Date</label>
+          <input id="arrival" type="date" name="arrival" />
+
+          <fieldset class="radio-options">
+            <legend>Which one of these animals would you like to visit?</legend>
+            <input type="radio" name="sloths" id="sloths" value="sloths" />
+            <label for="sloths">Relaxed Sloths</label>
+            <input
+              type="radio"
+              name="kangaroos"
+              id="kangaroos"
+              value="kangaroos"
+            />
+            <label for="kangaroos">Jumpy Kangaroos</label>
+            <input type="radio" name="racoons" id="racoons" value="racoons" />
+            <label for="racoons">Thieving Racoons</label>
+          </fieldset>
+
+          <label for="concerns">Any Concerns?</label>
+          <textarea name="concerns" id="concerns"></textarea>
+
+          <label for="accept-data-privacy">
+            <input
+              type="checkbox"
+              name="accept-data-privacy"
+              id="accept-data-privacy"
+            />
+            I accept the processing of my data.
+          </label>
+          <label for="accept-terms-conditions">
+            <input
+              type="checkbox"
+              name="accept-terms-conditions"
+              id="accept-terms-conditions"
+            />
+            Please send me your stupid newsletter.
+          </label>
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
