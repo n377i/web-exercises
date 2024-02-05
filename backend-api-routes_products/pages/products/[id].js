@@ -7,7 +7,7 @@ export default function DetailsPage() {
   const { id } = router.query;
 
   const { data: product, isLoading } = useSWR(
-    router.query.id ? `/api/products/${id}` : null
+    id ? `/api/products/${id}` : null
   );
 
   if (!product || isLoading) {
