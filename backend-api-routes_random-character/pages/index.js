@@ -3,13 +3,16 @@ import useSWR from "swr";
 const fetcher = (url) => fetch(url).then((response) => response.json());
 
 export default function HomePage() {
-  const { data, isLoading } = useSWR("/api/random-character", fetcher);
+  const { data: character, isLoading } = useSWR(
+    "/api/random-character",
+    fetcher
+  );
 
-  if (!data || isLoading) {
+  if (!character || isLoading) {
     return "Loading...";
   }
 
-  const { firstName, lastName, twitterName, geoHash } = data;
+  const { firstName, lastName, twitterName, geoHash } = character;
 
   return (
     <>
