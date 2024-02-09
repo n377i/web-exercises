@@ -2,6 +2,7 @@ import useSWR from "swr";
 import { useRouter } from "next/router";
 import { ProductCard } from "./Product.styled";
 import { StyledLink } from "../Link/Link.styled";
+import Comments from "../Comments";
 
 export default function Product() {
   const router = useRouter();
@@ -25,18 +26,7 @@ export default function Product() {
         Price: {data.price} {data.currency}
       </p>
       {data.reviews && data.reviews.length > 0 && (
-        <>
-          <h3>Reviews:</h3>
-          <ul>
-            {data.reviews.map((review) => (
-              <li key={review._id}>
-                <h4>{review.title}</h4>
-                <p>{review.text}</p>
-                <p>Rating: {review.rating}</p>
-              </li>
-            ))}
-          </ul>
-        </>
+        <Comments reviews={data.reviews} />
       )}
       <StyledLink href="/">Back to all</StyledLink>
     </ProductCard>
