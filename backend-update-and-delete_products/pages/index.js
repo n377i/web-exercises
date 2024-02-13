@@ -42,7 +42,7 @@ export default function HomePage() {
         </span>
         Fish Shop
       </Heading>
-      <ProductForm onSubmit={handleAddProduct} formHeading="Add a new Fish" />
+      <ProductForm onSubmit={handleAddProduct} value="" />
       <hr />
       <ProductList />
     </>
