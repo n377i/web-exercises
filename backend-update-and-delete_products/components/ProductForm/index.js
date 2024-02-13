@@ -1,14 +1,10 @@
 import { StyledForm, StyledHeading, StyledLabel } from "./ProductForm.styled";
 import { StyledButton } from "../Button/Button.styled";
 
-export default function ProductForm({ onSubmit, formHeading, value }) {
-  if (!value) {
-    return null;
-  }
-
+export default function ProductForm({ onSubmit, isEditMode, value }) {
   return (
     <StyledForm onSubmit={onSubmit}>
-      <StyledHeading>{formHeading}</StyledHeading>
+      {!isEditMode && <StyledHeading>Add a new Fish</StyledHeading>}
       <StyledLabel htmlFor="name">
         Name:
         <input type="text" id="name" name="name" defaultValue={value.name} />
