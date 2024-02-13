@@ -13,7 +13,7 @@ export default function Product() {
 
   const { data, isLoading, mutate } = useSWR(`/api/products/${id}`);
 
-  async function handleEdit(event) {
+  async function handleEditProduct(event) {
     event.preventDefault();
     const formData = new FormData(event.target);
     const productData = Object.fromEntries(formData);
@@ -76,9 +76,9 @@ export default function Product() {
       </div>
       {isEditMode && (
         <ProductForm
-          onSubmit={handleEdit}
+          onSubmit={handleEditProduct}
           value={data}
-          formHeading="Edit fish"
+          isEditMode={isEditMode}
         />
       )}
       <h2>{data.name}</h2>
