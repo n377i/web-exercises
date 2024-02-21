@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Sunset Over the Mountains",
+    "artist": "John Smith",
+    "year": 2019,
+    "image": "https://source.unsplash.com/featured/?mountains,sunset"
+  },
+  {
+    "id": 2,
+    "title": "City Lights",
+    "artist": "Emily Johnson",
+    "year": 2020,
+    "image": "https://source.unsplash.com/featured/?city,lights"
+  },
+  {
+    "id": 3,
+    "title": "Ocean View",
+    "artist": "Michael Davis",
+    "year": 2018,
+    "image": "https://source.unsplash.com/featured/?ocean"
+  },
+  {
+    "id": 4,
+    "title": "Urban Exploration",
+    "artist": "Sophia Rodriguez",
+    "year": 2021,
+    "image": "https://source.unsplash.com/featured/?urban,exploration"
+  },
+  {
+    "id": 5,
+    "title": "Flower Garden",
+    "artist": "Daniel White",
+    "year": 2017,
+    "image": "https://source.unsplash.com/featured/?flowers,garden"
+  },
+  {
+    "id": 6,
+    "title": "Aerial View of Forest",
+    "artist": "Alexandra Lee",
+    "year": 2022,
+    "image": "https://source.unsplash.com/featured/?forest,aerial"
+  }
+]
