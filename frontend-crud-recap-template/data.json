@@ -4,41 +4,41 @@
     "title": "Sunset Over the Mountains",
     "artist": "John Smith",
     "year": 2019,
-    "image": "https://source.unsplash.com/featured/?mountains,sunset"
+    "image": "https://cdn.pixabay.com/photo/2022/10/24/12/20/mountains-7543273_960_720.jpg"
   },
   {
     "id": 2,
     "title": "City Lights",
     "artist": "Emily Johnson",
     "year": 2020,
-    "image": "https://source.unsplash.com/featured/?city,lights"
+    "image": "https://cdn.pixabay.com/photo/2016/02/14/15/17/dresden-1199637_960_720.jpg"
   },
   {
     "id": 3,
     "title": "Ocean View",
     "artist": "Michael Davis",
     "year": 2018,
-    "image": "https://source.unsplash.com/featured/?ocean"
+    "image": "https://cdn.pixabay.com/photo/2020/05/16/10/14/ocean-5176878_960_720.jpg"
   },
   {
     "id": 4,
     "title": "Urban Exploration",
     "artist": "Sophia Rodriguez",
     "year": 2021,
-    "image": "https://source.unsplash.com/featured/?urban,exploration"
+    "image": "https://cdn.pixabay.com/photo/2013/04/12/15/48/urbex-103006_960_720.jpg"
   },
   {
     "id": 5,
     "title": "Flower Garden",
     "artist": "Daniel White",
     "year": 2017,
-    "image": "https://source.unsplash.com/featured/?flowers,garden"
+    "image": "https://cdn.pixabay.com/photo/2020/03/12/22/23/greens-4926370_960_720.jpg"
   },
   {
     "id": 6,
     "title": "Aerial View of Forest",
     "artist": "Alexandra Lee",
     "year": 2022,
-    "image": "https://source.unsplash.com/featured/?forest,aerial"
+    "image": "https://cdn.pixabay.com/photo/2016/07/26/16/58/country-1543315_960_720.jpg"
   }
 ]
