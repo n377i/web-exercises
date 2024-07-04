@@ -6,11 +6,13 @@ export const server = createServer((request, response) => {
   if (url === "/api/fish/1") {
     response.statusCode = 200;
     response.end("Shrimp");
-  } else if (url === "/api/fish/2") {
+  }
+
+  if (url === "/api/fish/2") {
     response.statusCode = 200;
     response.end("Anemonefish");
-  } else {
-    response.statusCode = 404;
-    response.end("Not found");
   }
+
+  response.statusCode = 404;
+  response.end("Not found");
 });
